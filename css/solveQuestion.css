@@ -1,0 +1,160 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,100,700,900);
+body{
+    background-image: url(../images/concrete_seamless.png);
+}
+#fullContainer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #2E2E3C;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+}
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+}
+
+*::-moz-selection {
+    color: #CFD8DC;
+    background: #009688;
+}
+
+*::selection {
+    color: #CFD8DC;
+    background: #009688;
+}
+
+*::-webkit-scrollbar {
+    width: 10px!important;
+    background: #FAFAFA;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, .08);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .2);
+}
+.visible{
+    color : #181015;
+}
+#question{
+    white-space: pre;       /* CSS 3 */
+    white-space: -moz-pre !important;  /* Mozilla, since 1999 */
+    white-space: -o-pre;    /* Opera 7 */
+
+    unicode-bidi: embed;
+    font-family: monospace;
+    font-size: 14px;
+    width :100%;
+    height: auto;
+}
+
+.userInput{
+    height : 0px;
+    overflow: auto;
+    display : inline-block;
+    width : 90%;
+}
+
+textarea{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    
+}
+
+
+/* Tab Content */
+.tab-pane {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+    background: #FFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #272727;
+    border-radius: 2px;
+}
+
+.tab-pane .title{
+    line-height: 48px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.tab-pane .header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tab-pane .actionbar {
+    border-top: 1px solid #ccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.border-top {
+    border-top: 1px solid #ccc;
+}
+.bg-success .h4, .bg-danger .h4, .bg-warning .h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.bg-success .h4 {
+    color: #3C7653 !important;
+}
+.bg-danger .h4 {
+    color: #A94458 !important;
+}
+.bg-warning .h4 {
+    color: #B18273 !important;
+}
+.tab-pane .result {
+    white-space: pre;       /* CSS 3 */
+    white-space: -moz-pre !important;  /* Mozilla, since 1999 */
+    white-space: -o-pre;    /* Opera 7 */
+    unicode-bidi: embed;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.bg-stable {
+    background-color: #484848 !important;
+    color: #fefefe;
+}
+.bg-stable .close {
+    color:white !important;
+    opacity: .8 !important;
+}
+.bg-stable .close:hover {
+    opacity: .99 !important;
+}
+.tab-pane .content{
+    padding: 20px;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px;
+}
+.tab-pane .action{
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 20px;
+}
+#inputBox{
+    width : 100%;
+    resize : none;
+    font-family: monospace;
+
+}
+
+
